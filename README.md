@@ -57,7 +57,25 @@ These results confirm bidirectional private-IP connectivity between the EC2 inst
 
 ## Screenshots
 
+## Screenshots
+
 Screenshots documenting the VPCs, subnets, peering connection, route tables, EC2 instances, security groups, and connectivity tests are included in this repository.
+
+1. `01-vpc-a.png` — VPC-A configuration
+2. `02-vpc-b.png` — VPC-B configuration
+3. `03-public-subnet-vpc-a.png` — VPC-A public subnet
+4. `04-private-subnet-vpc-a.png` — VPC-A private subnet
+5. `05-private-subnet-vpc-b.png` — VPC-B private subnet
+6. `06-vpc-peering-active.png` — Active VPC Peering connection
+7. `07-route-table-vpc-a.png` — VPC-A route table
+8. `08-route-table-vpc-b.png` — VPC-B route table
+9. `09-ec2-vpc-a.png` — EC2 instance in VPC-A
+10. `10-ec2-vpc-b.png` — EC2 instance in VPC-B
+11. `11-security-group-vpc-a.png` — VPC-A security group
+12. `12-security-group-vpc-b.png` — VPC-B security group
+13. `13-ping-a-to-b.png` — VPC-A to VPC-B ping test
+14. `14-ping-b-to-a.png` — VPC-B to VPC-A ping test
+15. `15-vpc-peering-architecture.png` — VPC Peering architecture diagram
 
 ## Conclusion
 
